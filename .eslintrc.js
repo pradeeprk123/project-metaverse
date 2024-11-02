@@ -20,6 +20,7 @@ module.exports = {
   rules: {
     'quotes': ['error', 'double'], // Use 'double' instead of 'single'
     'jsx-quotes': ['error', 'prefer-single'], // Change to prefer double for JSX if needed
+    'eol-last': ['error', 'always'], 
     'react/no-unescaped-entities': 0,
     'eslintreact/no-danger': 0,
     'react/jsx-max-props-per-line': 0,
